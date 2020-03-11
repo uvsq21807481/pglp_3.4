@@ -13,12 +13,12 @@ public class SimplePrinter implements Printer{
     public void print() { /* print a document */}
 
     @Override
-    public void scan() { thrown new UnsupportedOperationException(); }
+    public void scan() { throw new UnsupportedOperationException(); }
 
     @Override
-    public void copy() { thrown new UnsupportedOperationException(); }
+    public void copy() { throw new UnsupportedOperationException(); }
 
     @Override
-    public void fax() { thrown new UnsupportedOperationException(); }
+    public void fax() { throw new UnsupportedOperationException(); }
 
 }
